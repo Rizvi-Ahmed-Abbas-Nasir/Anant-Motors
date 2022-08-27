@@ -10,7 +10,7 @@ function App() {
     <div className='App'>
     <Router>
     <AuthProvider>
-    <Routes>
+    <Routes basename="/">
     <Route  exact path="/" element={<HomePage />} />
     </Routes>
     <Routes>

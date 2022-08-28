@@ -1,6 +1,6 @@
 import './App.css';
 import HomePage from './HomePage';
-import { BrowserRouter as Router, Route ,Routes } from "react-router-dom";
+import { BrowserRouter, BrowserRouter as Router, Route ,Routes } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import Register from './Pages/Auth_Users/registerPage'
 import LoginPage from './Pages/Auth_Users/loginPage';
@@ -8,10 +8,11 @@ import LoginPage from './Pages/Auth_Users/loginPage';
 function App() {
   return (
     <div className='App'>
+    <BrowserRouter basename="/Anant-Motors">
     <Router>
     <AuthProvider>
-    <Routes basename="/">
-    <Route  exact path="/" element={<HomePage />} />
+    <Routes>
+    <Route  exact path="/Anant-Motors" element={<HomePage />} />
     </Routes>
     <Routes>
       <Route path='register' element={<Register/>}/>
@@ -21,6 +22,7 @@ function App() {
     </Routes>
     </AuthProvider>
     </Router>
+    </BrowserRouter>
     </div>
   );
 }

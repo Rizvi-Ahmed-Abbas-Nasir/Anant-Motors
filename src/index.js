@@ -21,8 +21,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
         <StateProvider reducer={reducer} initialState={initialState} >
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
-         <App />
+        <BrowserRouter basename="/Anant-Motors">
+        <App />
         </BrowserRouter>
         </StateProvider>
     </React.StrictMode>

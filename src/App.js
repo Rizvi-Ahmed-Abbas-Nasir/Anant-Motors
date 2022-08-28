@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter basename='/Anant-Motors'>
     <AuthProvider>
     <Routes>
-    <Route  exact path="/Anant-Motors" element={<HomePage />} />
+    <Route  exact path="/" element={<HomePage />} />
     </Routes>
     <Routes>
       <Route path='register' element={<Register/>}/>

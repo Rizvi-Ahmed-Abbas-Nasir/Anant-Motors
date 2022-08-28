@@ -1,6 +1,6 @@
 import './App.css';
 import HomePage from './HomePage';
-import { HashRouter as Router, Route ,Routes } from "react-router-dom";
+import {BrowserRouter, Route ,Routes } from "react-router-dom";
 import { AuthProvider } from "./context/AuthContext";
 import Register from './Pages/Auth_Users/registerPage'
 import LoginPage from './Pages/Auth_Users/loginPage';
@@ -8,8 +8,7 @@ import LoginPage from './Pages/Auth_Users/loginPage';
 function App() {
   return (
     <div className='App'>
-    {/* <HashRouter basename="/Anant-Motors"> */}
-    <Router>
+    <BrowserRouter basename='/Anant-Motors'>
     <AuthProvider>
     <Routes>
     <Route  exact path="/Anant-Motors" element={<HomePage />} />
@@ -21,8 +20,7 @@ function App() {
       <Route path='login' element={<LoginPage/>}/>
     </Routes>
     </AuthProvider>
-    </Router>
-    {/* </HashRouter> */}
+    </BrowserRouter>
     </div>
   );
 }

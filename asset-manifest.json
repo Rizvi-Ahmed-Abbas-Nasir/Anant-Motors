@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Anant-Motors/static/css/main.8b7aae54.css",
-    "main.js": "/Anant-Motors/static/js/main.69b00f16.js",
+    "main.js": "/Anant-Motors/static/js/main.87031de6.js",
     "static/js/787.c1112931.chunk.js": "/Anant-Motors/static/js/787.c1112931.chunk.js",
     "static/media/video2.mp4": "/Anant-Motors/static/media/video2.d70d24723bb9756d5bc9.mp4",
     "static/media/Owner.png": "/Anant-Motors/static/media/Owner.8fdaacf2cb6ad6cee289.png",
@@ -25,11 +25,11 @@
     "static/media/slick.woff": "/Anant-Motors/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Anant-Motors/index.html",
     "main.8b7aae54.css.map": "/Anant-Motors/static/css/main.8b7aae54.css.map",
-    "main.69b00f16.js.map": "/Anant-Motors/static/js/main.69b00f16.js.map",
+    "main.87031de6.js.map": "/Anant-Motors/static/js/main.87031de6.js.map",
     "787.c1112931.chunk.js.map": "/Anant-Motors/static/js/787.c1112931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b7aae54.css",
-    "static/js/main.69b00f16.js"
+    "static/js/main.87031de6.js"
   ]
 }

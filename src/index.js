@@ -20,7 +20,7 @@ root.render(
     <React.StrictMode>
     <StateProvider reducer={reducer} initialState={initialState} >
         <App />
-        </StateProvider>
+    </StateProvider>
     </React.StrictMode>
 
 )
